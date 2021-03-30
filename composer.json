@@ -1,7 +1,9 @@
 {
     "name": "ben/test_mocks",
+    "description":"any_description",
     "require": {
-        "phpunit/phpunit": "^9.5"
+        "phpunit/phpunit": "^9.5",
+        "fakerphp/faker": "^1.14"
     },
     "autoload": {
         "psr-4": {

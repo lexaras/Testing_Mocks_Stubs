@@ -15,10 +15,6 @@ class EmployeeController {
     public function getAllJson() : string {
         return json_encode($this->employeeRepository->getAll());
     }
-    // public function getAllJsonWithMetaInformation(): string{
-    //     $count= count(($this->employeeRepository->getAll()));
-    //     return json_encode(count($this->employeeRepository->getAll()));
-    // }
     public function getAllJsonWithMetaInformation(){
         $employees= $this->employeeRepository->getAll();
         $count= count($employees);
